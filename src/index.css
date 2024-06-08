@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.skillContainer img {
+  width: 400px; 
+  height: 250px; 
+  border-radius: 10px;
+  filter: none; 
+  -webkit-filter: none; 
+}
