@@ -34,25 +34,25 @@ const Banner = () => {
         </p>
         <div className="flex justify-center mt-5">
           <a
-            href="https://web.facebook.com/profile.php?id=100082673616604"
+            href="https://www.facebook.com/DebabrataDas101/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaFacebookSquare className="min-w-[3rem] min-h-[3rem] text-blue-400 mb-4 mr-10"></FaFacebookSquare>
+            <FaFacebookSquare className="min-w-[3rem] min-h-[3rem] text-blue-400 hover:text-blue-600 mb-4 mr-10"></FaFacebookSquare>
           </a>
           <a
-            href="https://github.com/nishattandra"
+            href="https://github.com/debabrata101"
             target="_blank"
             rel="noreferrer"
           >
-            <BsGithub className="min-w-[3rem] min-h-[3rem] text-blue-400 mb-4 mr-10"></BsGithub>
+            <BsGithub className="min-w-[3rem] min-h-[3rem] text-blue-400 hover:text-blue-600 mb-4 mr-10"></BsGithub>
           </a>
           <a
-            href="https://www.linkedin.com/in/nishat-jahan-tandra-074633251/"
+            href="https://www.linkedin.com/in/debabrata-das-75a649229/"
             target="_blank"
             rel="noreferrer"
           >
-            <BsLinkedin className="min-w-[3rem] min-h-[3rem] text-blue-400 mb-4"></BsLinkedin>
+            <BsLinkedin className="min-w-[3rem] min-h-[3rem] text-blue-400 hover:text-blue-600 mb-4"></BsLinkedin>
           </a>
         </div>
         <a

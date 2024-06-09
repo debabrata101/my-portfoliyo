@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-4">
           {navItem}
           <a
-            href="https://github.com/your-github-username"
+            href="https://github.com/debabrata101"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-blue-700 ml-4 outline-none"

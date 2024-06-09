@@ -4,11 +4,14 @@ import Home from "../Page/Home";
 import About from "../Page/About";
 import Skills from "../Page/Skils";
 import Education from "../Page/Education";
+import Contuct from "../Page/Contuct";
+import Error from "../Page/Error";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement:<Error/>,
     children: [
       {
         index: true,
@@ -25,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path:"education",
         element:<Education/>
+      },
+      {
+        path:"contact",
+        element:<Contuct/>
       },
     ],
   },
