@@ -37,11 +37,11 @@ const Skills = () => {
   return (
     <div className="">
       <div>
-        <h2 className="text-5xl text-center   mt-8 font-bold ">
+        <h2  className="text-5xl text-center    mt-8 font-bold ">
           MY <span className="text-primary">SKILLS</span>
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-2 md:ml-10 mt-20 mb-10 text-black">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ml-2 md:ml-10  mt-20 mb-10 text-black">
         {skillsData.map((skill, index) => (
           <div
             key={index}
