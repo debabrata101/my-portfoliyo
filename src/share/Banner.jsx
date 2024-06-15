@@ -2,13 +2,13 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
+import bannerImage from '../assets/banner.jpg';
 const Banner = () => {
   return (
     <div
-      className=" img flex items-center justify-center bg-cover bg-center min-h-screen p-6 shadow-lg"
+      className=" flex items-center  h-[800px] justify-center bg-cover bg-center min-h-screen p-6 shadow-lg"
       style={{
-        backgroundImage:
-          "url('https://img.freepik.com/free-photo/programming-background-collage_23-2149901777.jpg?t=st=1717790557~exp=1717794157~hmac=95862f2b2a2a22a87e994f876f27fa206bbcaf73498ad8cc3605785c7007d664&w=1380')",
+        backgroundImage: `url(${bannerImage})`,
       }}
     >
       <div className="bg-black bg-opacity-80 p-8 rounded-lg text-center shadow-2xl  text-white">
@@ -20,7 +20,7 @@ const Banner = () => {
             options={{
               strings: [
                 "I'm a Web Developer",
-                "MERN & Full-Stack Developer",
+                "MERN  Developer",
                 "Front-End Developer",
               ],
               autoStart: true,

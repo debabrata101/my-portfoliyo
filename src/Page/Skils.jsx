@@ -33,33 +33,38 @@ const skillsData = [
 const Skills = () => {
   useEffect(() => {
     AOS.init();
-  });
+  }, []);
+
   return (
-    <div className="">
+    <div className="flex flex-col items-center justify-center">
       <div>
-        <h2  className="text-5xl text-center    mt-8 font-bold ">
+        <h2 className="text-5xl text-center mt-8 font-bold">
           MY <span className="text-primary">SKILLS</span>
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ml-2 md:ml-10  mt-20 mb-10 text-black">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 mb-10 text-black">
         {skillsData.map((skill, index) => (
           <div
             key={index}
             data-aos="flip-right"
-            className="relative rounded-lg overflow-hidden"
+            className="relative flex flex-col items-center justify-center rounded-lg overflow-hidden"
             style={{
               backgroundImage: `url(${image})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
-              height: "300px", 
-              width: "300px", 
+              height: "300px",
+              width: "300px",
             }}
           >
             <img
               src={skill.icon}
               alt={skill.name}
-              className="mx-auto mb-4 mt-6 object-cover rounded-md   shadow-2xl"
-              style={{ height: "128px", width: "128px"  ,boxShadow: '0px 4px 10px rgb(96, 235, 230)' }}
+              className="object-cover rounded-md shadow-2xl"
+              style={{
+                height: "128px",
+                width: "128px",
+                boxShadow: "0px 4px 10px rgb(96, 235, 230)",
+              }}
             />
             <div className="absolute bottom-0 left-0 w-full h-24 bg-black bg-opacity-30 p-4 text-center text-white backdrop-blur">
               <h2 className="md:text-2xl font-bold">{skill.name}</h2>

@@ -8,3 +8,6 @@
   filter: none; 
   -webkit-filter: none; 
 }
+.vertical-timeline::before {
+  background: rgb(96, 235, 230); /* Change this to your desired color */
+}

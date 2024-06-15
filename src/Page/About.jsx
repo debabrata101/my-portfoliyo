@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <div>
-        <h2 className="text-5xl text-center   mt-8 font-bold ">
+        <h2 className="text-5xl text-center mt-8 font-bold ">
           Know About <span className="text-primary">Me</span>
         </h2>
       </div>
