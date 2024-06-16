@@ -22,7 +22,7 @@ const About = () => {
               repeat={Infinity}
             />
           </h1>
-          <p  className="">
+          <p  className="text-justify mr-4">
             I am an Diploma student. Currently, I am doing my Diploma in
             CST(Computer Science & Technology) at Chittagong Polytechnic
             Institute. I&apos;m particularly interested in web development as it
@@ -33,7 +33,7 @@ const About = () => {
             I&apos;ve studied HTML, CSS, Bootstrap, Tailwind, JavaScript, React,
             and React Roter. For the backend, I am proficient in Node.js and
             Express.js. For databases, I frequently use Firebase and Mongodb. I
-            am also familiar with utilizing npm, git, GitHub, netlify, surge,
+            am also familiar with utilizing npm, git, GitHub, netlify, 
             and Firebase to deploy my projects.
           </p>
           <br />
