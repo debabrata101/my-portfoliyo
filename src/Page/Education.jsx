@@ -74,6 +74,7 @@ const Education = () => {
                 {education.institution}
               </h4>
               <p className="text-gray-300 mb-2">CGPA: {education.cgpa}</p>
+              <p className="text-gray-300 ">Passing: {education.passing}</p>
               <p className="text-gray-300">{education.location}</p>
             </div>
           </VerticalTimelineElement>
