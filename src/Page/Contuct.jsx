@@ -37,6 +37,7 @@ const Contuct = () => {
         <h2 className="text-5xl text-center   mt-8 font-bold ">
           CONTACT <span className="text-primary">WITH ME</span>
         </h2>
+        <hr className=" border border-spacing-5 h-2 w-96 mt-4 bg-blue-500 mx-auto" ></hr>
       </div>
       <div className="flex flex-col md:flex-row justify-around items-center p-6 space-y-6 md:space-y-0 md:space-x-6">
         {isHomePath ? (

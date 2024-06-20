@@ -41,6 +41,7 @@ const Skills = () => {
         <h2 className="text-5xl text-center mt-8 font-bold">
           MY <span className="text-primary">SKILLS</span>
         </h2>
+        <hr className=" border border-spacing-5 h-2 w-96 mt-4 bg-blue-500 mx-auto" ></hr>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 mb-10 text-black">
         {skillsData.map((skill, index) => (

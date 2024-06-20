@@ -39,6 +39,7 @@ const Education = () => {
         <h2 className="text-5xl text-center mt-8 mb-6 font-bold">
           MY <span className="text-primary">EDUCATION</span>
         </h2>
+        <hr className=" border border-spacing-5 h-2 w-96 mt-4 bg-blue-500 mx-auto" ></hr>
       </div>
       <VerticalTimeline
           className="custom-vertical-timeline"

@@ -11,6 +11,7 @@ const About = () => {
         <h2 className="text-5xl text-center mt-8 font-bold ">
           Know About <span className="text-primary">Me</span>
         </h2>
+     <hr className=" border border-spacing-5 h-2 w-96 mt-4 bg-blue-500 mx-auto" ></hr>
       </div>
       <div className="flex justify-around  items-center">
         <div className=" mt-10 mr-10 p-8  md:ml-36 md:w-1/2 m-3 text-balance font-mono text-xl ">
