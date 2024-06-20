@@ -6,6 +6,7 @@ import Skills from "../Page/Skils";
 import Education from "../Page/Education";
 import Contuct from "../Page/Contuct";
 import Error from "../Page/Error";
+import Project from "../Page/Project";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
       {
         path:"skills",
         element:<Skills/>
+      },
+      {
+        path:"project",
+        element:<Project/>
       },
       {
         path:"education",
