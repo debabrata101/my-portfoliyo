@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md bg-black text-white  bg-opacity-40  rounded p-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold font-pacifico mb-4">
               It's <span className="text-blue-400">Debabrata</span>
             </h1>
             <div className="text-2xl md:text-4xl mb-6">
@@ -31,7 +31,7 @@ const Banner = () => {
                 }}
               />
             </div>
-            <p className="max-w-xl mx-auto font-bold mb-6">
+            <p className="max-w-xl mx-auto font-pacifico mb-6">
               I'm a passionate developer skilled in building modern web
               applications.
             </p>

@@ -3,7 +3,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pacifico: ['Pacifico', 'cursive'],
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
