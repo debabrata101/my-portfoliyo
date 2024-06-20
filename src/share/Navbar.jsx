@@ -13,7 +13,7 @@ const Navbar = () => {
   <NavLink className={({ isActive }) => (isActive ? "text-blue-800 font-bold" : "text-white font-bold hover:text-blue-700 outline-none")} to='about'>ABOUT</NavLink> 
   <NavLink className={({ isActive }) => (isActive ? "text-blue-800 font-bold" : "text-white font-bold hover:text-blue-700 outline-none")} to='skills'>SKILLS</NavLink> 
   <NavLink className={({ isActive }) => (isActive ? "text-blue-800 font-bold" : "text-white font-bold hover:text-blue-700 outline-none")} to='education'>EDUCATION</NavLink> 
-  <NavLink className={({ isActive }) => (isActive ? "text-blue-800 font-bold" : "text-white font-bold hover:text-blue-700 outline-none")} to='project'>PROJECT</NavLink> 
+  <NavLink className={({ isActive }) => (isActive ? "text-blue-800 font-bold" : "text-white font-bold hover:text-blue-700 outline-none")} to='projects'>PROJECT</NavLink> 
   <NavLink className={({ isActive }) => (isActive ? "text-blue-800 font-bold" : "text-white font-bold hover:text-blue-700 outline-none")} to='contact'>CONTACT</NavLink> 
   </>
 
